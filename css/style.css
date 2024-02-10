@@ -1,5 +1,51 @@
-.button{
-    background-color: #ff8dee;
+body{
+    background-color: white;
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-weight: bold;
+    margin: 15px 0px;
+    color: darkslategray;
+    text-align: center;
+}
+
+h1{
+    font-size: x-large;
+}
+
+h2{
+    font-size: large;
+    font-style: italic;
+}
+
+h3{
+    font-size: medium;
+    text-decoration: underline;
+}
+
+main img{
+    align-items: center;
+    border: double 6px #ffc8f7;
+    border-radius: 12px;
+}
+
+p{
+    line-height: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslategray;
+    background-color: #ffc8f7;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.button1, .button2, .button3, .button4{
+    background-color: #ffc8f7;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -22,6 +68,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
     padding: 10px;
+    justify-items: center;
 }
 
 .skip-to-main{
@@ -33,7 +80,14 @@
     left: 10px;
 }
 
-.navigation{
+.navigation ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#homepage .button1, #petspage .button2, #recipespage .button3, #travelpage .button4{
+    background-color: #a71398;
+    text-decoration: underline;
+    border: inset;
 }
