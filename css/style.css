@@ -58,11 +58,6 @@ p{
     border-radius: 12px;
 }
 
-.button:active{
-    background-color: #a71398;
-    text-decoration: underline;
-}
-
 .gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -76,18 +71,16 @@ p{
     left: -1000px;
 }
 .skip-to-main:focus{
-    position:relative;
+    position: relative;
     left: 10px;
 }
 
 .navigation ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    display: inline-block;
 }
 
 #homepage .button1, #petspage .button2, #recipespage .button3, #travelpage .button4{
-    background-color: #a71398;
+    background-color: #a56ca0;
     text-decoration: underline;
     border: inset;
 }
